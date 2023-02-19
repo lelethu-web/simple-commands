@@ -12,5 +12,5 @@ jobs:
           with:
              who-to-greet: Lelethu
              
-        - name: Greeting time:
+        - name: Greeting time
           run: echo "${{ steps.greet.outputs.time}}"
